@@ -1,0 +1,29 @@
+{
+  "name": "qa-winnin",
+  "version": "1.0.0",
+  "description": "Scenario for test in Winnin",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:bdd": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroVasconcell0s/QA-Winnin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PedroVasconcell0s/QA-Winnin/issues"
+  },
+  "homepage": "https://github.com/PedroVasconcell0s/QA-Winnin#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "@cucumber/cucumber": "^12.6.0"
+  }
+}
