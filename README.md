@@ -14,7 +14,6 @@ src/
     elements/       # Mapeamento global de elementos (Page Objects estáticos)
     commands/       # Comandos globais reutilizáveis
     world.ts        # Configuração do Cucumber World e Playwright
-    hooks.ts        # Hooks (Before/After) para setup/teardown do browser
 ```
 
 ## Instalação
